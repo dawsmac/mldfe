@@ -13,7 +13,7 @@ We would like see a solution to run the 'notes' application using docker with Co
 To build the backend database server as a container “Couchdb” I chose to use the official apache image and to keep consistency “Version control” I have selected 1.7.0.
 From your local machine that is running Docker, please run the following commands
 
-,,,bash
+'''
 docker pull couchdb:1.7.0
 ,,,
 
