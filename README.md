@@ -3,7 +3,7 @@ We would like see a solution to run the 'notes' application using docker with Co
 
 # RUNNIING THE NOTES APPLICATION WITH DOCKER:
 
-# Repository’s
+## Repository’s
 
 -	Dokcerhub: https://hub.docker.com/u/dawsmac/
 o	This is hosting my Automated image of the frontend application “notes”
@@ -68,5 +68,5 @@ If all has gone well you should be able to access the below link:
 
 http://<machinesip>:8080/swagger-ui.html
 
-SUMMARY:
+# SUMMARY:
 I built the application locally 1st only using the backend database as a container, this enabled me to troubleshoot any issues that I came across with the notes application, at the same time enabling to me understand how the application worked. I quick discovered that notes had been coded with a DNS record, hence why I have added a step in the deployment guide around this. After I had successfully tested this I was able to move onto building the front-end into a container. I then applied a white-box approach for testing the application, make sure that I was getting the same results as with the local deployment.
