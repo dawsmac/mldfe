@@ -25,7 +25,7 @@ WORKDIR /usr/src/app/mld-devops-test/build/libs
 RUN mv *.jar /opt/MLD/Notes.jar
 
 #It's time to tidyup...
-RUN rm -R /usr/scr/
+RUN rm -R /usr/scr/app
 
 #Start the application
 ENTRYPOINT ["java","-jar","/opt/MLD/Notes.jar"]
