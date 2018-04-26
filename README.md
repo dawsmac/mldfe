@@ -15,7 +15,7 @@ From your local machine that is running Docker, please run the following command
 
 '''
 docker pull couchdb:1.7.0
-,,,
+'''
 
 Once this has been pulled we will need to start up the container:
 
